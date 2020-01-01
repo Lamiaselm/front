@@ -16,7 +16,9 @@
         single-line
         hide-details
       ></v-text-field>
-    
+       <form class="cf" action="./home">
+    <input type="submit" value="Revenir à l'accueil" id="input-submit">
+     </form>
     </v-card-title>
     <v-data-table
       :headers="headers"
@@ -28,6 +30,7 @@
    </template></v-data-table>
   
   </v-card>
+  
   
 </template>
 <script>

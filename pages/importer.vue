@@ -10,6 +10,9 @@
  
     <input type="submit" value="Importer" id="input-submit">
   </form>
+      <form class="cf" action="./home">
+    <input type="submit" value="Revenir à l'accueil" id="input-submit">
+     </form>
   </section>
 </template>
 

@@ -14,12 +14,17 @@
       <input type="text" name="master" placeholder="Master" v-model="data.master">
       <input type="text" name="doctorat" placeholder="Doctorat" v-model="data.doctorat">
       <input type="text" name="experience" placeholder="Années d'experience" v-model="data.experience" >
+      
     
     
     </div>
  
     <input type="submit" value="Ajouter" id="input-submit">
+
   </form>
+    <form class="cf" action="./home">
+    <input type="submit" value="Revenir à l'accueil" id="input-submit">
+     </form>
   </section>
 </template>
 

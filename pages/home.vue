@@ -11,6 +11,12 @@
   <form class="cf" action="./importer">
     <input type="submit" value="Importer piece jointe" id="input-submit">
      </form>
+      <form class="cf" action="./afficher_enseignant">
+    <input type="submit" value="Afficher les enseignants" id="input-submit">
+     </form>
+      <form class="cf" action="./afficher_file">
+    <input type="submit" value="Afficher les piece jointes" id="input-submit">
+     </form>
   </section>
 </template>
 
